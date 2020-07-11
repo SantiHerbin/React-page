@@ -24,7 +24,8 @@ const Badge = () => {
                         <h1>section 1</h1>
                     </section>
                     <section>
-                        <h1>section 2</h1>
+                        <h1>section 3</h1>
+                        <h2>Hola</h2>
                     </section>
                 </div>  
         </div>
