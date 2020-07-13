@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import bootstrap from 'bootstrap/dist/css/bootstrap.css'
 
-// BOOTSWATCH CSS
-
+import wraper from './globals/wraper.css'
 
 ReactDOM.render(
   <React.StrictMode>

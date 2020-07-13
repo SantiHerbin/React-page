@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
 
-import Badge from './components/badge';
+import Navegacion from './components/navegacion';
+import Section1 from './components/section1';
 
 function App() {
   return (
-    <Badge />
+    <div className="wraper">
+      <Navegacion />
+      <Section1 />
+    </div>   
   );
 }
 
