@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import bootstrap from 'bootstrap/dist/css/bootstrap.css'
+import bootswatch from 'bootswatch/dist/lux/bootstrap.min.css'
 
 import wraper from './globals/wraper.css'
 
