@@ -15,8 +15,7 @@ import {
 function App() {
   return (
       <Router>
-          <navegacion />
-        <div className="container">  
+          <Navegacion />  
           <Switch>
             <Route path="/portafolio">
               <Portafolio />
@@ -28,7 +27,6 @@ function App() {
               <Inicio />
             </Route>
           </Switch>
-        </div>
       </Router>
   );
 }
