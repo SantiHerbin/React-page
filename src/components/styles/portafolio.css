@@ -1,0 +1,37 @@
+.contain{
+    height: 596px;
+    width: 100%;
+    background-color: #1b262c;
+    padding: 20px;
+}
+
+.conte{
+    border: 2px #fff solid;
+}
+
+img{
+    width: 200px;
+    height: 125px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 20px;
+}
+
+.col-sm{
+    height: auto;
+    border-radius: 32px;
+    margin-bottom: 7px;
+    border: 3px #e4e4e4 solid;
+    color: #1b262c;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+p{
+    color: #1b262c;
+}
+
+.column{
+    width: 75%;
+}
