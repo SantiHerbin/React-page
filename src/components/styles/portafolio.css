@@ -1,12 +1,13 @@
 .contain{
-    height: 596px;
+    height: auto;
     width: 100%;
     background-color: #1b262c;
     padding: 20px;
 }
 
-.conte{
+.content{
     border: 2px #fff solid;
+    display: flex;
 }
 
 img{
@@ -17,21 +18,55 @@ img{
     margin: 0 20px;
 }
 
+img{
+    transition: color .5s;
+}
+img:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
 .col-sm{
     height: auto;
     border-radius: 32px;
-    margin-bottom: 7px;
-    border: 3px #e4e4e4 solid;
-    color: #1b262c;
+    margin-bottom: 9px;
+    border: 2px #e4e4e4 solid;
     display: flex;
     flex-direction: row;
-    padding: 30px;
+    padding: 30px 40px;
 }
 
-p{
-    color: #1b262c;
+.profile-github p{
+    font-size: 20px;
+    color: #fff;
+}
+.profile-github{
+    text-align: center;
+    width: 70vh;
+    padding: 25px;
+}
+
+button{
+    border: none;
+}
+
+.col-sm h3{
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.col-sm p{
+    color: #fff;
 }
 
 .column{
-    width: 75%;
+    width: 100%;
+}
+
+.more-repo{
+    width: auto;
+    padding: 20px;
+}
+
+.text{
+    margin-left: 20px;
 }

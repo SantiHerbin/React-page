@@ -8,17 +8,21 @@
     background-color: #1b262c;
 }
 
-.content{
+#content{
+    width: 65%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: none;
 }
 
-.content h2{
+#content h2{
     font-size: 25px;
     color: #fff;
     margin-bottom: 20px;
 }
 
-.content p{
+#content p{
     font-size: 15px;
     color: #eeeeee;
 }
