@@ -4,7 +4,6 @@ import './App.css';
 import Navegacion from './components/navegacion';
 import Inicio from './components/inicio';
 import Portafolio from './components/portafolio';
-import Contacto from './components/contacto';
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,9 +19,6 @@ function App() {
           <Switch>
             <Route path="/portafolio">
               <Portafolio />
-            </Route>
-            <Route path="/contacto">
-              <Contacto />
             </Route>
             <Route path="/">
               <Inicio />

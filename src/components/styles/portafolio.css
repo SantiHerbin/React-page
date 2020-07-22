@@ -6,8 +6,8 @@
 }
 
 .content{
-    border: 2px #fff solid;
     display: flex;
+    margin-top: 7px;
 }
 
 img{
@@ -28,11 +28,12 @@ img:hover{
 .col-sm{
     height: auto;
     border-radius: 32px;
-    margin-bottom: 9px;
-    border: 2px #e4e4e4 solid;
+    box-shadow: 0px 0px 25px -2px rgba(0,0,0,0.64);
     display: flex;
     flex-direction: row;
     padding: 30px 40px;
+    background-color: #212529;
+    margin: 15px;
 }
 
 .profile-github p{
@@ -42,11 +43,23 @@ img:hover{
 .profile-github{
     text-align: center;
     width: 70vh;
+    height: 35vh;
     padding: 25px;
+    margin-left: 25px;
+    background-color: #212529;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px -2px rgba(0,0,0,0.64);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 button{
     border: none;
+}
+
+.profile-github button a{
+    color: #fff;
 }
 
 .col-sm h3{
@@ -61,6 +74,21 @@ button{
 .column{
     width: 100%;
 }
+.scroll{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 85vh;
+    padding-right: 26px;
+}
+.scroll::-webkit-scrollbar{
+    height: 100%;
+    width: 5px;
+}
+.scroll::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #e9e9e9;
+}
+
 
 .more-repo{
     width: auto;
@@ -69,4 +97,38 @@ button{
 
 .text{
     margin-left: 20px;
+}
+
+button .icon{
+    margin-right: 5px;
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70vh;
+    text-align: center;
+    padding: 25px;
+    /*border: 2px #fff solid;*/
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.form{
+    width: 100%;
+}
+.form input{
+    margin-bottom: 12px;
+    border: none;
+}
+.form textarea{
+    border: none;
+}
+.form-group h3{
+    margin-bottom: 15px;
+    color: #ededed;
+}
+.form-group button{
+    margin-top: 12px;
 }

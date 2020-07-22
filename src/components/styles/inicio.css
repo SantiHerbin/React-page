@@ -1,28 +1,36 @@
 .conten{
-    height: 596px;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     background-color: #1b262c;
 }
 
-#content{
+#center{
     width: 65%;
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-self: center;
     border: none;
 }
 
-#content h2{
+#center h2{
     font-size: 25px;
     color: #fff;
     margin-bottom: 20px;
 }
 
-#content p{
+#center p{
     font-size: 15px;
     color: #eeeeee;
+    font-weight: 400;
+}
+
+#center a{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 30px;
 }

@@ -19,9 +19,6 @@ function Navegacion() {
             <li className="nav-item">
               <a className="nav-link text-light" href="/portafolio">Portafolio</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link text-light" href="/contacto">Contacto</a>
-            </li>
           </ul>
         </div>
       </nav>

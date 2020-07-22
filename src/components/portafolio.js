@@ -7,9 +7,16 @@ import contacts from '../images/contactsapp.PNG';
 import easyyy from '../images/easyy.PNG';
 
 function Portafolio() {
+
+    const handleSubmit = e => {
+        e.preventDefault();
+        console.log(e);
+    }
+
     return(
             <div className="contain">
                 <div className="content">
+                    <div className="scroll">
                     <div className="column">
                         <div className="col-sm">
                             <a href="https://santiherbin.github.io/TSProgramacionfull/index.html" target="_blank"><img src={tsp} width="50px" height="40px" alt=""/></a>
@@ -36,11 +43,23 @@ function Portafolio() {
                                 </div>
                         </div>
                     </div>
-                    <div className="profile-github">
-                        <p>
-                            Esos son algunos de mis repositorios, Si quieres ver mas puedes entrar a mi perfil de GitHub y ver más.
-                        </p>
-                        <button className="btn btn-primary"><i className="fab fa-github"></i>Mi GitHub</button>
+                    </div>
+                    <div className="git-contact">
+                        <div className="profile-github">
+                            <p>
+                                Esos son algunos de mis proyectos, Si quieres ver más puedes entrar a mi perfil de GitHub y verlos.
+                            </p>
+                            <button className="btn btn-primary"><a href="https://github.com/SantiHerbin" target="_blank"><i className="fa fa-github icon"></i>Mi GitHub</a></button>
+                        </div>
+                        <div className="form-group">
+                            <h3>Contacto</h3>
+                            <form className="form" onSubmit={handleSubmit}>
+                                <input type="text" className="form-control" placeholder="Nombre"/>
+                                <input type="text" className="form-control" placeholder="Correo Electronico"/>
+                                <textarea className="form-control" placeholder="Tu Mensaje"></textarea>
+                                <button type="submit" className="btn btn-primary">Enviar</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
