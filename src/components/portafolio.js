@@ -54,9 +54,10 @@ function Portafolio() {
                         <div className="form-group">
                             <h3>Contacto</h3>
                             <form className="form" onSubmit={handleSubmit}>
-                                <input type="text" className="form-control" placeholder="Nombre"/>
-                                <input type="text" className="form-control" placeholder="Correo Electronico"/>
-                                <textarea className="form-control" placeholder="Tu Mensaje"></textarea>
+                                <input type="text" className="form-control" name="nombre" placeholder="Nombre"/>
+                                <input type="email" className="form-control" name="correo" placeholder="Correo Electronico"/>
+                                <input type="text" className="form-control" name="asunto" placeholder="Asunto"/>
+                                <textarea className="form-control" name="mensaje" placeholder="Tu Mensaje"></textarea>
                                 <button type="submit" className="btn btn-primary">Enviar</button>
                             </form>
                         </div>

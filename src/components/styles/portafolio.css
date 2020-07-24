@@ -43,8 +43,8 @@ img:hover{
 .profile-github{
     text-align: center;
     width: 70vh;
-    height: 35vh;
-    padding: 25px;
+    height: 30vh;
+    padding: 20px;
     margin-left: 25px;
     background-color: #212529;
     border-radius: 20px;
@@ -109,10 +109,10 @@ button .icon{
     flex-direction: column;
     width: 70vh;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     /*border: 2px #fff solid;*/
     margin-left: 25px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .form{
